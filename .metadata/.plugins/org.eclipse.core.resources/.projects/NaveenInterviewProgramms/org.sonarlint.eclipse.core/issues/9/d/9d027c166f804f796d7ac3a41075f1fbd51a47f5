@@ -1,0 +1,11 @@
+
+s
+java:S1659"@Declare "rem" and all following declarations on a separate line.(ÍÒ¨Ô8›ÉÎýÓ1HÒ#RMINORZ
+CODE_SMELL
+F
+java:S1220""Move this file to a named package.HÖ#RMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(Ææ Ï8›ÉÎýÓ1H×#RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(âÌÆ…ÿÿÿÿÿ8é’ø´Ù1HØ#RMAJORZ
+CODE_SMELL

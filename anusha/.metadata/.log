@@ -1,0 +1,180 @@
+!SESSION 2024-02-15 16:31:37.377 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=18.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2024-02-15 16:31:54.396
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-02-15 16:31:54.397
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@70799ca7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@690113f0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-02-15 16:31:54.397
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@509e4d53,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6f915016,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2024-02-15 16:32:01.402
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2024-02-15 16:32:01.404
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-02-15 16:32:01.429
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\anukolli'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-15 16:32:03.828
+!MESSAGE Exception encountered during context initialization - cancelling refresh attempt: org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.sonarsource.sonarlint.core.http.ConnectionAwareHttpClientProvider': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'provideHttpClientProvider' defined in org.sonarsource.sonarlint.core.spring.SonarLintSpringAppConfig: Bean instantiation via factory method failed; nested exception is org.sonarsource.sonarlint.shaded.org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.sonarsource.sonarlint.core.http.HttpClientProvider]: Factory method 'provideHttpClientProvider' threw exception; nested exception is java.lang.IllegalStateException: Unexpected failure opening I/O selector
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-02-15 16:32:03.843
+!MESSAGE An internal error occurred during: "Backend initialization".
+!STACK 0
+java.lang.IllegalStateException: Unable to initialize the SonarLint Backend
+	at org.sonarlint.eclipse.core.internal.backend.SonarLintBackendService$1.run(SonarLintBackendService.java:133)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.util.concurrent.ExecutionException: org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.sonarsource.sonarlint.core.http.ConnectionAwareHttpClientProvider': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'provideHttpClientProvider' defined in org.sonarsource.sonarlint.core.spring.SonarLintSpringAppConfig: Bean instantiation via factory method failed; nested exception is org.sonarsource.sonarlint.shaded.org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.sonarsource.sonarlint.core.http.HttpClientProvider]: Factory method 'provideHttpClientProvider' threw exception; nested exception is java.lang.IllegalStateException: Unexpected failure opening I/O selector
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073)
+	at org.sonarlint.eclipse.core.internal.backend.SonarLintBackendService$1.run(SonarLintBackendService.java:131)
+	... 1 more
+Caused by: org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.sonarsource.sonarlint.core.http.ConnectionAwareHttpClientProvider': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'provideHttpClientProvider' defined in org.sonarsource.sonarlint.core.spring.SonarLintSpringAppConfig: Bean instantiation via factory method failed; nested exception is org.sonarsource.sonarlint.shaded.org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.sonarsource.sonarlint.core.http.HttpClientProvider]: Factory method 'provideHttpClientProvider' threw exception; nested exception is java.lang.IllegalStateException: Unexpected failure opening I/O selector
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.sonarsource.sonarlint.shaded.org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.sonarsource.sonarlint.shaded.org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.sonarsource.sonarlint.core.SonarLintBackendImpl.lambda$initialize$2(SonarLintBackendImpl.java:64)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'provideHttpClientProvider' defined in org.sonarsource.sonarlint.core.spring.SonarLintSpringAppConfig: Bean instantiation via factory method failed; nested exception is org.sonarsource.sonarlint.shaded.org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.sonarsource.sonarlint.core.http.HttpClientProvider]: Factory method 'provideHttpClientProvider' threw exception; nested exception is java.lang.IllegalStateException: Unexpected failure opening I/O selector
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 20 more
+Caused by: org.sonarsource.sonarlint.shaded.org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.sonarsource.sonarlint.core.http.HttpClientProvider]: Factory method 'provideHttpClientProvider' threw exception; nested exception is java.lang.IllegalStateException: Unexpected failure opening I/O selector
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 34 more
+Caused by: java.lang.IllegalStateException: Unexpected failure opening I/O selector
+	at org.apache.hc.core5.reactor.AbstractSingleCoreIOReactor.<init>(AbstractSingleCoreIOReactor.java:64)
+	at org.apache.hc.core5.reactor.SingleCoreIOReactor.<init>(SingleCoreIOReactor.java:81)
+	at org.apache.hc.core5.reactor.DefaultConnectingIOReactor.<init>(DefaultConnectingIOReactor.java:71)
+	at org.apache.hc.client5.http.impl.async.HttpAsyncClientBuilder.build(HttpAsyncClientBuilder.java:946)
+	at org.sonarsource.sonarlint.core.http.HttpClientProvider.<init>(HttpClientProvider.java:91)
+	at org.sonarsource.sonarlint.core.spring.SonarLintSpringAppConfig.provideHttpClientProvider(SonarLintSpringAppConfig.java:181)
+	at org.sonarsource.sonarlint.core.spring.SonarLintSpringAppConfig$$EnhancerBySpringCGLIB$$5762d9be.CGLIB$provideHttpClientProvider$3(<generated>)
+	at org.sonarsource.sonarlint.core.spring.SonarLintSpringAppConfig$$EnhancerBySpringCGLIB$$5762d9be$$FastClassBySpringCGLIB$$55672fab.invoke(<generated>)
+	at org.sonarsource.sonarlint.shaded.org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.sonarsource.sonarlint.shaded.org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.sonarsource.sonarlint.core.spring.SonarLintSpringAppConfig$$EnhancerBySpringCGLIB$$5762d9be.provideHttpClientProvider(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 35 more
+Caused by: java.io.IOException: Unable to establish loopback connection
+	at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:99)
+	at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:65)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.base/sun.nio.ch.PipeImpl.<init>(PipeImpl.java:188)
+	at java.base/sun.nio.ch.WEPollSelectorImpl.<init>(WEPollSelectorImpl.java:78)
+	at java.base/sun.nio.ch.WEPollSelectorProvider.openSelector(WEPollSelectorProvider.java:33)
+	at java.base/java.nio.channels.Selector.open(Selector.java:295)
+	at org.apache.hc.core5.reactor.AbstractSingleCoreIOReactor.<init>(AbstractSingleCoreIOReactor.java:62)
+	... 48 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:586)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:853)
+	at java.base/java.nio.channels.SocketChannel.open(SocketChannel.java:285)
+	at java.base/sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(PipeImpl.java:129)
+	at java.base/sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:81)
+	... 55 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-02-15 16:33:38.523
+!MESSAGE Exception encountered during context initialization - cancelling refresh attempt: org.sonarsource.sonarlint.shaded.org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ClassRealm{javascript}-org.sonar.plugins.javascript.bridge.BridgeServerImpl': Bean instantiation via constructor failed; nested exception is org.sonarsource.sonarlint.shaded.org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.sonar.plugins.javascript.bridge.BridgeServerImpl]: Constructor threw exception; nested exception is java.io.UncheckedIOException: java.io.IOException: Unable to establish loopback connection
+
+!ENTRY org.sonarlint.eclipse.core 2 0 2024-02-15 16:33:38.608
+!MESSAGE Error when executing SonarLint analysis
+!STACK 0
+java.lang.IllegalStateException: SonarLint Engine not available
+	at org.sonarlint.eclipse.core.internal.engine.StandaloneEngineFacade.lambda$2(StandaloneEngineFacade.java:83)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.sonarlint.eclipse.core.internal.engine.StandaloneEngineFacade.runAnalysis(StandaloneEngineFacade.java:83)
+	at org.sonarlint.eclipse.core.internal.jobs.AnalyzeStandaloneProjectJob.runAnalysis(AnalyzeStandaloneProjectJob.java:62)
+	at org.sonarlint.eclipse.core.internal.jobs.AnalyzeStandaloneProjectJob.runAnalysis(AnalyzeStandaloneProjectJob.java:1)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractAnalyzeProjectJob.run(AbstractAnalyzeProjectJob.java:441)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractAnalyzeProjectJob.runAnalysisAndUpdateMarkers(AbstractAnalyzeProjectJob.java:220)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractAnalyzeProjectJob.doRun(AbstractAnalyzeProjectJob.java:164)
+	at org.sonarlint.eclipse.core.internal.jobs.AbstractSonarJob.run(AbstractSonarJob.java:37)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.launching 4 120 2024-02-15 16:34:23.590
+!MESSAGE Cannot connect to VM
+!STACK 0
+com.sun.jdi.connect.TransportTimeoutException
+	at org.eclipse.jdi.internal.connect.SocketTransportService.accept(SocketTransportService.java:103)
+	at org.eclipse.jdi.internal.connect.SocketTransportImpl.accept(SocketTransportImpl.java:63)
+	at org.eclipse.jdi.internal.connect.SocketListeningConnectorImpl.accept(SocketListeningConnectorImpl.java:167)
+	at org.eclipse.jdt.internal.launching.StandardVMDebugger$ConnectRunnable.run(StandardVMDebugger.java:114)
+	at java.base/java.lang.Thread.run(Thread.java:833)

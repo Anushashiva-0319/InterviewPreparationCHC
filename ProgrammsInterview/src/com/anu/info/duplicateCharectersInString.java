@@ -1,0 +1,34 @@
+package com.anu.info;
+
+import java.util.HashMap;
+import java.util.Map.Entry;
+
+public class duplicateCharectersInString {
+
+	static void findDuplicate(String str) {
+		HashMap<Character, Integer> hm = new HashMap<Character, Integer>();
+		char[] c = str.toCharArray();
+		for (char ch : c) {
+			if (hm.containsKey(ch)) {
+				hm.put(ch, hm.get(ch) + 1);
+			} else {
+				hm.put(ch, 1);
+			}
+		}
+		for (Entry<Character, Integer> map : hm.entrySet()) {
+			if (map.getValue() > 1) {
+				System.out.println(map);
+			}
+
+		}
+
+	}
+
+	public static void main(String[] args) {
+
+		findDuplicate( "anushaxytx");
+		
+		
+	}
+
+}

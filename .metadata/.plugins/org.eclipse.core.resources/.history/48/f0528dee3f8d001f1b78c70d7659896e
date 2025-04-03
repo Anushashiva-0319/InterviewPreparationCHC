@@ -1,0 +1,12 @@
+package com.anu.info;
+
+public class RemoveWhiteSpacesINString {
+
+	public static void main(String[] args) {
+		
+		
+		String st ="    anu   sha         ";
+		System.out.println(st.trim());
+		
+	}
+}

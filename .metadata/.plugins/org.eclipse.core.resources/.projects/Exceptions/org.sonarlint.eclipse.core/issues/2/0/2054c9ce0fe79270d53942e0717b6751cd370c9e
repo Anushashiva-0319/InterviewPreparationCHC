@@ -1,0 +1,15 @@
+
+f
+java:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿHÓRMAJORZ
+CODE_SMELL
+F
+java:S1220""Move this file to a named package.HÕRMINORZ
+CODE_SMELL
+k
+java:S3518"CMake sure this expression can't be zero before doing this division.(ËôçHÖRCRITICALZBUG
+t
+java:S2166"CRename this class to remove "Exception" or correct its inheritance.(ˆÒÙüÿÿÿÿH×RMAJORZ
+CODE_SMELL
+V
+java:S1197"*Move the array designators [] to the type.(“šÃHØRMINORZ
+CODE_SMELL

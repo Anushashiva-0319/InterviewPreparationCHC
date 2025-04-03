@@ -1,0 +1,13 @@
+package com.anu.info;
+
+import java.util.Arrays;
+
+public class duplicateCharectersInString {
+
+	String str ="i am am java java dev";
+	
+	String [] st = str.split("");
+	System.out.println("st");
+	
+	Arrays.stream(st).disnict().for
+}

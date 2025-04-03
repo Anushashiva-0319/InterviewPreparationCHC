@@ -1,0 +1,12 @@
+
+F
+java:S1220""Move this file to a named package.H«RMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(Â“÷»ýÿÿÿÿH§RMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(«ŸÙ·HªRMAJORZ
+CODE_SMELL
+f
+java:S1161
+":Add the "@Override" annotation above this method signature(ÉëïÏH¨RMAJORZ
+CODE_SMELL

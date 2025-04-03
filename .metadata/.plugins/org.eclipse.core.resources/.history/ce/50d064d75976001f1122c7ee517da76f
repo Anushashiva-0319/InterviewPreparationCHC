@@ -1,0 +1,28 @@
+package ImmutableExample;
+
+final public class Doubt {
+
+	final public int id;
+
+	final public String name;
+
+	public Course course;
+
+	public Doubt(int id, String name) {
+
+		this.id = id;
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "Doubt [id=" + id + ", name=" + name + "]";
+	}
+
+	public static void main(String[] args) {
+
+		Doubt d = new Doubt(1, "anusha");
+		System.out.println(d);
+	}
+
+}

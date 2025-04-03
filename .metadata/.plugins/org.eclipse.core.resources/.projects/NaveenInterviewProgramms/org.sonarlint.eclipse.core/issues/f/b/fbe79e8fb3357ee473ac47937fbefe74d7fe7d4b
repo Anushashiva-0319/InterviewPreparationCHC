@@ -1,0 +1,41 @@
+
+d	java:S106#"9Replace this use of System.out or System.err by a logger.(ú÷¸ªHö%RMAJORZ
+CODE_SMELL
+d	java:S1061"9Replace this use of System.out or System.err by a logger.(÷åñÌH÷%RMAJORZ
+CODE_SMELL
+
+java:S3776	"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Çµí‘Hø%RCRITICALZ
+CODE_SMELL
+j
+java:S1128"9Remove this unused import 'java.security.KeyStore.Entry'.(ß†ƒÙüÿÿÿÿHƒ&RMINORZ
+CODE_SMELL
+F
+java:S1220""Move this file to a named package.H…&RMINORZ
+CODE_SMELL
+X
+java:S1125"'Remove the unnecessary boolean literal.(ìÀªœüÿÿÿÿH†&RMINORZ
+CODE_SMELL
+‘
+java:S1192"]Define a constant instead of duplicating this literal "the duplicate element is :::" 3 times.(©Š‹øÿÿÿÿH‰&RCRITICALZ
+CODE_SMELL
+Š
+java:S2293%"YReplace the type specification in this constructor call with the diamond operator ("<>").(Š„„ùÿÿÿÿH&RMINORZ
+CODE_SMELL
+^
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜ÉüÿÿÿÿH&RMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(§‘ÃøÿÿÿÿH‘&RMAJORZ
+CODE_SMELL
+\
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒH’&RMINORZ
+CODE_SMELL
+[
+java:S1197"*Move the array designators [] to the type.(‘şÖòùÿÿÿÿH”&RMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(©Š‹øÿÿÿÿH—&RMAJORZ
+CODE_SMELL
+…
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(İ°õèH˜&RMINORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(ú÷¸ªHš&RMAJORZ
+CODE_SMELL

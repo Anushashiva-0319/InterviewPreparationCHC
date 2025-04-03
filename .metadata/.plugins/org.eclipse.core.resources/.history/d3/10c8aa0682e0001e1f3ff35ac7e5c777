@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class AnushaGnanasri {
+	
+	// given no is prime or not
+	
+	public static void main(String[] args) {
+		
+		Scanner sc =new Scanner(System.in);
+		System.out.println("enter  the num");
+		int n=sc.nextInt();
+		int count=0;
+		while(n>0) {
+			if(n%2==1) {
+				count++;
+			}
+			break;
+			
+		}
+		if(count==1) {
+			System.out.println("given num is prime" +n);
+		}
+		else {
+			System.out.println("given num is NOT prime" +n);
+		
+		}
+	}}

@@ -1,0 +1,16 @@
+package com.anu.numberProgram;
+
+public class ReverseOfANUM {
+public static void main(String[] args) {
+	
+	
+	int n=123 ,sum=0,rem=0;
+	
+	while(n>0) {
+		rem=n%10;
+		sum=rem+0*10;
+		n=n/10;
+	}
+	System.out.println(sum);
+}
+}

@@ -1,0 +1,15 @@
+
+‰
+java:S4276"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(¯í­¯8‹ëÏÊ¶1HµRMINORZ
+CODE_SMELL
+F
+java:S1220""Move this file to a named package.H²RMINORZ
+CODE_SMELL
+‰
+java:S4276"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(Ÿ†“Ÿ8ØÒ×Ê¶1HºRMINORZ
+CODE_SMELL
+b
+java:S1611"/Remove the parentheses around the "t" parameter(Ÿ†“Ÿ8ØÒ×Ê¶1H»RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(¤¸¤ûÿÿÿÿ8ØÒ×Ê¶1H¼RMAJORZ
+CODE_SMELL

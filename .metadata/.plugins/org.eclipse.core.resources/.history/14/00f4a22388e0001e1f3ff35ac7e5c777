@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class AnushaGnanasri {
+
+	// given no is prime or not
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter  the num");
+		int n = sc.nextInt();
+		// char [] c=s.toCharArray();
+		int rev = 0;
+		int rem = 0;
+		while (n > 0) {
+			rem = n % 10;
+			rev = rev + rem*10;
+			n = n / 10;
+		}
+
+		if (rev == n) {
+			System.out.println("the given num is polindrome");
+		} else {
+			System.out.println("the given string is NOT polindrome");
+		}
+
+	}
+}

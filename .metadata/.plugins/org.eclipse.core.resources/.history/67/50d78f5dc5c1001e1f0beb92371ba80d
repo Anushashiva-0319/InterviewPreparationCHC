@@ -1,0 +1,22 @@
+
+public class FinaMissingNumbersInarrayList {
+	public static void main(String[] args) {
+
+		// find missing numbers in unsorted array
+
+		int an[] = { 1,3,4,5 };
+		int reg[] = new int[an.length];
+		for (int a : an) {
+			reg[a] = a; // storing all elements in the given list to reg list ==1
+		}
+
+		for (int i = 1; i < reg.length; i++) {
+			if (reg[i] == 0) {
+				
+			}
+			
+		
+		System.out.println("misssing numbers in the list" + i);
+		}
+	}
+}

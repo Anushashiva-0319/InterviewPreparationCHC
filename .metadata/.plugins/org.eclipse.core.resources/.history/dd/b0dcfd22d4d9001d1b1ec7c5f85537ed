@@ -1,0 +1,28 @@
+class Add{
+	int add(int x, int y) {
+		System.out.println( x+y);
+		return x+y;
+	}
+}
+	class Sub extends Add{
+		int sub(int x, int y) {
+			 System.out.println( x-y);
+			 return x-y;
+		}
+	}
+
+	class Div extends Sub{
+		void div(int x, int y) {
+			System.out.println(x/y);
+		}
+	}
+public class MultilevelInheritence {
+
+	public static void main(String[] args) {
+		Div s=new Div();
+		s.add(11, 11);
+		s.sub(10, 9);
+		s.div(10, 5);
+		
+	}
+}

@@ -1,0 +1,39 @@
+import java.util.Arrays;
+
+public class CHECKINGINFo {
+
+	public static void main(String[] args) {
+		
+		int a[]= {123,456,789,12,10};
+		int max= Arrays.stream(a).max().getAsInt();
+		int min=Arrays.stream(a).min().getAsInt();
+		
+		System.out.println("max value is+:" +max + ":min value " +min);
+		
+		int firstmax=a[0];
+		int secondmax=a[0],thirdmax=a[0],mini=a[0];
+		for(int i=0;i<a.length;i++) {
+			if(a[i]>firstmax) {
+				secondmax=firstmax;
+				firstmax=a[i];
+			}
+			else if(a[i]>secondmax) {
+				thirdmax=secondmax;
+				secondmax=a[i];
+			}
+			else if(a[i]>thirdmax) {
+				thirdmax=a[i];
+			}
+			else {
+				if(a[i]<mini) {
+					mini=a[i];
+				}
+			}
+			System.out.println("first max value is :" +firstmax);
+			System.out.println("second max value is :" +secondmax);
+			System.out.println("third max value is :" +thirdmax);
+			System.out.println("first minimum value is :" +mini);
+		}
+		
+}
+}

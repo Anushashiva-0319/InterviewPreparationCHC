@@ -1,0 +1,23 @@
+package com.anu.numberProgram;
+
+public class FactorialUsingRecursion {
+
+	static int fact(int n) {
+		int z=0;
+		if(n==0 || n==1) {
+			return  1;
+		}
+		if(n>0) {
+			 z= n*fact(n-1);
+			 return z;
+		}
+		//return z;
+		return z;
+	}
+	
+	public static void main(String[] args) {
+		int x=fact(5);
+		System.out.println(x);
+	}
+	
+}

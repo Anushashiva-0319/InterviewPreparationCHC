@@ -1,0 +1,23 @@
+
+F
+java:S1220""Move this file to a named package.HÃRMINORZ
+CODE_SMELL
+k
+java:S3518	"CMake sure this expression can't be zero before doing this division.(Ù“Í×HÄRCRITICALZBUG
+o
+java:S2166"CRename this class to remove "Exception" or correct its inheritance.(ÌÄ»ïHÅRMAJORZ
+CODE_SMELL
+[
+java:S1197"*Move the array designators [] to the type.(¹òÆ‹şÿÿÿÿHÆRMINORZ
+CODE_SMELL
+p
+java:S2147"DCombine this catch with the one at line 12, which has the same body.(Í™°¬HÉRMINORZ
+CODE_SMELL
+V
+java:S1197"*Move the array designators [] to the type.(Íø§HÍRMINORZ
+CODE_SMELL
+T
+java:S1481"(Remove this unused "arr" local variable.(Íø§HĞRMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿHÒRMAJORZ
+CODE_SMELL

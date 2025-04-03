@@ -1,0 +1,16 @@
+
+S
+java:S1165"(Make this "systemErrorCode" field final.(°ï¾{HÊRMINORZ
+CODE_SMELL
+N
+java:S1165"Make this "type" field final.(–î†ûÿÿÿÿHËRMINORZ
+CODE_SMELL
+Q
+java:S1165" Make this "message" field final.(ù„è¿ûÿÿÿÿHÌRMINORZ
+CODE_SMELL
+S
+java:S1165""Make this "timeStamp" field final.(ØçäİÿÿÿÿÿHÍRMINORZ
+CODE_SMELL
+c
+java:S1161"":Add the "@Override" annotation above this method signature(‡+HÎRMAJORZ
+CODE_SMELL

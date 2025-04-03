@@ -1,0 +1,29 @@
+
+P
+java:S1165""Make this "status" field final.(Ï¸×ıÿÿÿÿHÄRMINORZ
+CODE_SMELL
+„
+java:S2786†"RRemove this redundant "static" qualifier; nested enum types are implicitly static.(ßèÜÖùÿÿÿÿHÈRMINORZ
+CODE_SMELL
+l	java:S107f"AConstructor has 8 parameters, which is greater than 7 authorized.(š½İ†HÆRMAJORZ
+CODE_SMELL
+V
+java:S1165"%Make this "sourceSystem" field final.(Õˆ†şÿÿÿÿHÁRMINORZ
+CODE_SMELL
+N
+java:S1165"Make this "type" field final.(–î†ûÿÿÿÿHÀRMINORZ
+CODE_SMELL
+M
+java:S1165"!Make this "severity" field final.(Ë¢™ÆHÃRMINORZ
+CODE_SMELL
+K
+java:S1165&"Make this "causes" field final.(êë£ÚHÅRMINORZ
+CODE_SMELL
+I
+java:S1165"Make this "code" field final.(²âèúH¿RMINORZ
+CODE_SMELL
+N
+java:S1165"#Make this "errorInfos" field final.(ß¤£HÂRMINORZ
+CODE_SMELL
+l	java:S107z"AConstructor has 9 parameters, which is greater than 7 authorized.(š½İ†HÇRMAJORZ
+CODE_SMELL

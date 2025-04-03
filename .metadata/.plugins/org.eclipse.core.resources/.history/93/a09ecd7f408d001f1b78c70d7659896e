@@ -1,0 +1,15 @@
+package com.anu.info;
+
+public class RemoveWhiteSpacesINString {
+
+	public static void main(String[] args) {
+		
+		
+		String st ="    anu   sha         ";
+		System.out.println(st.trim());
+		//  String s=st.strip(); it not work bcz i am using java 8 it intoduced in java 11
+		st.replaceAll("\\s", "");
+		
+		
+	}
+}

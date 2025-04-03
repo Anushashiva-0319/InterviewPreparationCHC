@@ -1,0 +1,17 @@
+package com.anu.info;
+
+public class ReverseEachWordOfString {
+
+	public static void main(String[] args) {
+		
+		
+		String str= "i am anusha kolli";
+		String[] st= str.split(" ");
+		String rev="";
+		for(int i=st.length-1;i>=0;i--) {
+			rev=rev + st.charAt[i];
+		}
+	}
+	
+	
+}

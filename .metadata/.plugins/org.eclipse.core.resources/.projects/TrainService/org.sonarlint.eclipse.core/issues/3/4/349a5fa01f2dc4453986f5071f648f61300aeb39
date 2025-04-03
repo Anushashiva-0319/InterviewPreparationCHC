@@ -1,0 +1,13 @@
+
+	java:S116	"TRename this field "ErrorCode" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(≠“ ëHﬁRMINORZ
+CODE_SMELL
+Ç	java:S116
+"WRename this field "ErrorMessage" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê¨õµHﬂRMINORZ
+CODE_SMELL
+N
+java:S1165	""Make this "ErrorCode" field final.(≠“ ëH‡RMINORZ
+CODE_SMELL
+Q
+java:S1165
+"%Make this "ErrorMessage" field final.(ê¨õµH·RMINORZ
+CODE_SMELL

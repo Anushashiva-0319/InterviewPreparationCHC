@@ -1,0 +1,10 @@
+
+l
+java:S1226"AIntroduce a new variable instead of reusing the parameter "name".(†‘8ª”¯¼¶1HµRMINORZBUG
+k	java:S106"9Replace this use of System.out or System.err by a logger.(«‹Îõ8â¥®¼¶1H´RMAJORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(ì£ ½8¾Èñ¶Ë1HÑRMAJORZ
+CODE_SMELL
+F
+java:S1220""Move this file to a named package.H³RMINORZ
+CODE_SMELL

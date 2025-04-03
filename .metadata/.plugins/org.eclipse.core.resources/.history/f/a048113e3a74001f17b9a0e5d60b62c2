@@ -1,0 +1,44 @@
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+
+public class Example {
+	
+	    public static void main(String[] args) {
+	    	
+	        List<String> input = Arrays.asList("abc cde aad", "prasad ram", "monkey mongoose", "karthik jayaprakasam");
+
+	        List<String> result = input.stream()
+	            // FlatMap to create a stream of words from the list of strings
+	            .flatMap(line -> Arrays.stream(line.split(" ")))
+	            // Filter words with duplicate characters
+	            .filter(word -> hasDuplicateCharacters(word))
+	            // Collect the results into a list
+	            .collect(Collectors.toList());
+
+	        System.out.println(result);
+	    }
+
+	    // Method to check if a word contains duplicate characters
+	    private static boolean hasDuplicateCharacters(String word) {
+	    	char[] char1=word.toCharArray();
+	    	HashMap<Character, Character> ma=new HashMap();
+	    	for(Character ct :char1) {
+	    		if(ma.containsKey(ct)) {
+	    			return true;
+	    		}
+	    	}
+	    	return false;
+	    	
+			/*
+			 * Set<Character> charSet = new HashSet<>(); for (char c : word.toCharArray()) {
+			 * if (!charSet.add(c)) { return true; // Duplicate character found } } return
+			 * false; // No duplicate characters
+			 */   }
+	}
+
+

@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class prime1to100 {
+
+	
+	public static void main(String[] args) {
+		
+		int i,j,count=0;
+		System.out.println("enter n value");
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		for(i=1;i<=n;i++) {
+			for(j=1;j<i;j--) {
+				count++;
+			}
+			if(count==2);
+				
+			System.out.println(j);
+		}
+		
+	}
+}

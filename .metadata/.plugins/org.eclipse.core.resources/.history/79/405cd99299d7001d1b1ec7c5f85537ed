@@ -1,0 +1,16 @@
+
+public class Anusha {
+
+	int x, y;
+
+	int add(int x, int y) {
+		return x + y;
+
+	}
+public static void main(String[] args) {
+	Anusha anu=new Anusha();
+	anu.add(10, 20);
+	System.out.println(anu);
+	
+}
+}

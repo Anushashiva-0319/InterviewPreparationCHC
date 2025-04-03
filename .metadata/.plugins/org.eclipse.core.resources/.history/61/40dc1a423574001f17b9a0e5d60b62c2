@@ -1,0 +1,12 @@
+
+public class Example {
+
+	
+	public static void main(String[] args) {
+		
+		String str[]= { "abc cde aad", "prasad ram", "monkey mongoo", "karthik jayaprakasam"};
+		
+		
+		
+	}
+}

@@ -1,0 +1,29 @@
+package com.example.Library.entity;
+
+import org.hibernate.annotations.IdGeneratorType;
+
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.OneToMany;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class Books {
+
+	@Id
+    @GeneratedValue (strategy = GenerationType.IDENTITY)
+	private int isbn;
+	private String title;
+	private String author;
+	private String genere;
+	private String publishedYear;
+	@OneToMany
+	private Borrower brd;
+
+}

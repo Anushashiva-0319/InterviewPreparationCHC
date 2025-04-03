@@ -1,0 +1,12 @@
+
+~	java:S100N"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•бо щ€€€€HйRMINORZ
+CODE_SMELL
+w
+java:S4684N"@Replace this persistent entity with a simple POJO or DTO object.(•бо щ€€€€HкRCRITICALZVULNERABILITY
+g	java:S125"<This block of commented-out lines of code should be removed.(ЏЋЏЕHлRMAJORZ
+CODE_SMELL
+Z
+java:S1452D"&Remove usage of generic wildcard type.(НІчёъ€€€€HмRCRITICALZ
+CODE_SMELL
+r
+java:S4684'"@Replace this persistent entity with a simple POJO or DTO object.(йє ЭHнRCRITICALZVULNERABILITY

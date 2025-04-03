@@ -1,0 +1,38 @@
+package com.anu.immutableex;
+
+final public class ImmutableClassDemo {
+
+	final private int a;
+
+	final private int b;
+	private Address address;
+
+	@Override
+	public String toString() {
+		return "ImmutableClassDemo [a=" + a + ", b=" + b + "]";
+	}
+
+	public ImmutableClassDemo(int a, int b) {
+		super();
+		this.a = a;
+		this.b = b;
+	}
+
+	public int getA() {
+		return a;
+	}
+
+	public int getB() {
+		return b;
+	}
+
+	public static void main(String[] args) {
+		ImmutableClassDemo demo = new ImmutableClassDemo(11, 12);
+
+		ImmutableClassDemo demo1 = new ImmutableClassDemo(10, 2);
+		System.out.println(demo);
+		System.out.println(demo1);
+
+	}
+
+}

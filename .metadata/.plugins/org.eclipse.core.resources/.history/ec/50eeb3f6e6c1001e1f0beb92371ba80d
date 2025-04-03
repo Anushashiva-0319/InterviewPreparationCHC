@@ -1,0 +1,17 @@
+
+public class SwapStringWithoutUsingTemp {
+public static void main(String[] args) {
+	
+	
+	String a="anusha";
+	String b="kolli";
+	System.out.println("before swapping" +a+ " "+b);
+	
+	a=a+b;
+	System.out.println("total length" +a);
+	
+	b=a.substring(0, a.length()- b.length());
+	a=a.substring(b.length());
+	
+}
+}

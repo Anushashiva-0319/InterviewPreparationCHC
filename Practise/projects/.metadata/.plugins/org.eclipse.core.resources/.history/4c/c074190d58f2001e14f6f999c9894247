@@ -1,0 +1,11 @@
+package com.example.Library.entity;
+
+public class Books {
+
+	private int isbn;
+	private String title;
+	private String author;
+	private String genere;
+	private String publishedYear;
+
+}

@@ -1,0 +1,30 @@
+package com.anu.info;
+
+public class CountVowelsinGivenString {
+
+	public static void main(String[] args) {
+
+		countVowels("i am am java java developer");
+	}
+
+	private static void countVowels(String str) {
+
+		str=str.replaceAll("\\s", "");
+		char[] c=str.toCharArray();
+		int count =0,sum=0;
+		for(char ch: c) {
+			
+			if(ch == 'a' || ch =='e' || ch=='i' || ch =='o' || ch =='u') {
+				count=count++;
+				sum=sum+count;
+				//System.out.println();
+			}
+			else  {
+				count++;
+			}
+		}
+		System.out.println(sum);
+		
+	}
+
+}

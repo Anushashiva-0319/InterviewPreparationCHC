@@ -1,0 +1,17 @@
+
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ºöH“#RMINORZ
+CODE_SMELL
+[
+java:S1197"*Move the array designators [] to the type.(ÚÆ©ıÿÿÿÿH”#RMINORZ
+CODE_SMELL
+d	java:S106
+"9Replace this use of System.out or System.err by a logger.(Šõˆ¡H—#RMAJORZ
+CODE_SMELL
+e
+java:S1854"9Remove this useless assignment to local variable "count".(¾´üöH˜#RMAJORZ
+CODE_SMELL
+_
+java:S2123":Remove this increment or correct the code not to waste it.(¾´üöH™#RMAJORZBUG
+^
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜ÉüÿÿÿÿHš#RMINORZ
+CODE_SMELL

@@ -1,0 +1,20 @@
+
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ºöH±#RMINORZ
+CODE_SMELL
+v
+java:S3973"GUse indentation to denote the code conditionally executed by this "if".(›Š©ˆH²#RCRITICALZ
+CODE_SMELL
+g
+java:S1226"BIntroduce a new variable instead of reusing the parameter "start".(ÑÉşÔH´#RMINORZBUG
+j
+java:S1226"@Introduce a new variable instead of reusing the parameter "end".(”å•åşÿÿÿÿHµ#RMINORZBUG
+g
+java:S1226"BIntroduce a new variable instead of reusing the parameter "start".(ò½¡ùH¶#RMINORZBUG
+V
+java:S1197"*Move the array designators [] to the type.(úç«H·#RMINORZ
+CODE_SMELL
+e
+java:S1854"9Remove this useless assignment to local variable "start".(ÑÉşÔHº#RMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(ê–Ó•H»#RMAJORZ
+CODE_SMELL

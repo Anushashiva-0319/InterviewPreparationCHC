@@ -1,0 +1,21 @@
+
+Z
+java:S1452P"&Remove usage of generic wildcard type.(§÷ŞúÿÿÿÿH°RCRITICALZ
+CODE_SMELL
+g	java:S125v"<This block of commented-out lines of code should be removed.( ¶ÄóH²RMAJORZ
+CODE_SMELL
+h	java:S125’"<This block of commented-out lines of code should be removed.(ÿèÓèHµRMAJORZ
+CODE_SMELL
+U
+java:S14524"&Remove usage of generic wildcard type.(öÍÿğH«RCRITICALZ
+CODE_SMELL
+x	java:S100j"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åœiH­RMINORZ
+CODE_SMELL
+	java:S100Œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şºõôüÿÿÿÿH¯RMINORZ
+CODE_SMELL
+l	java:S125("<This block of commented-out lines of code should be removed.(İíƒ„ùÿÿÿÿH®RMAJORZ
+CODE_SMELL
+y	java:S100^"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÑƒàH¬RMINORZ
+CODE_SMELL
+r
+java:S46844"@Replace this persistent entity with a simple POJO or DTO object.(öÍÿğH±RCRITICALZVULNERABILITY

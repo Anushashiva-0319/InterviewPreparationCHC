@@ -1,0 +1,14 @@
+package com.anu.info;
+
+public class CountVowelsinGivenString {
+
+	public static void main(String[] args) {
+
+		countVowels("i am am java java developer");
+	}
+
+	private static void countVowels(String str) {
+
+	}
+
+}

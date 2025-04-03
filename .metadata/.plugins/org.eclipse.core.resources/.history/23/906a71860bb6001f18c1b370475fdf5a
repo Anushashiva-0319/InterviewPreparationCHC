@@ -1,0 +1,12 @@
+
+public class SortAscendingOrderbaseduponLengthofString {
+
+	
+	public static void main(String[] args) {
+		
+		String str ="hello to world";
+		str=str.replaceAll("oO", "");
+		System.out.println(str);
+		StringBuilder s =new String
+	}
+}

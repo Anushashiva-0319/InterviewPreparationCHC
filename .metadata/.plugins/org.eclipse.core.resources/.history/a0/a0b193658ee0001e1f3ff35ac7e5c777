@@ -1,0 +1,30 @@
+import java.util.HashMap;
+import java.util.Map.Entry;
+import java.util.Scanner;
+
+public class Pattern {
+
+	public static void main(String[] args) {
+		repetative("anushaKolli");
+	}
+
+	private static void repetative(String str) {
+		char[] c = str.toCharArray();
+		HashMap<Character, Integer> hs = new HashMap<Character, Integer>();
+
+		for (Character cha : c) {
+			if (hs.containsKey(cha)) {
+				hs.put(cha, hs.get(cha) + 1);
+			} else {
+				hs.put(cha, 1);
+			}
+		}
+		System.out.println(hs);
+
+		for (Entry<Character, Integer> map : hs.entrySet()) {
+			if (map.getValue() > 1) {
+				System.out.println(map);
+			}
+		}
+	}
+}

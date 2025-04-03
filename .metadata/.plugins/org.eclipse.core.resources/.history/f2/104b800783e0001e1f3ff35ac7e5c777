@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class AnushaGnanasri {
+	
+	// given no is prime or not
+	
+	public static void main(String[] args) {
+		
+		Scanner sc =new Scanner(System.in);
+		System.out.println("enter  the num");
+		int n=sc.nextInt();
+		int temp=n;
+		int rem=0,sum=0;
+		while(n>0) {
+			rem=n%10;
+			sum=sum+rem*rem*rem;
+			n=n/10;
+		}
+		if(temp==sum) {
+		System.out.println("the given num is armstrong " +n);
+			
+		}
+		else {
+			System.out.println("not armStrong");
+		}
+		}
+	}

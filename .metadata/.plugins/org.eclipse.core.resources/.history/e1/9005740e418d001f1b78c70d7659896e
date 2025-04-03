@@ -1,0 +1,20 @@
+package com.anu.info;
+
+public class RemoveWhiteSpacesINString {
+
+	public static void main(String[] args) {
+		
+		
+		String st ="    anu   sha         ";
+		System.out.println(st.trim());
+		String st1 ="    anu   sha         ";
+		//  String s=st.strip(); it not work bcz i am using java 8 it intoduced in java 11
+		String s=st1.replaceAll("\\s", "");
+		System.out.println("removing white spaces using replaceAll() method  "   +s);
+		
+		String f = "";
+
+		System.out.println(f.isEmpty());
+
+	}
+}

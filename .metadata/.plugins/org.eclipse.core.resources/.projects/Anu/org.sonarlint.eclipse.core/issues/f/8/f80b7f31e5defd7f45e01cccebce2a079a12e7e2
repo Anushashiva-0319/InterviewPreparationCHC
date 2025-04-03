@@ -1,0 +1,14 @@
+
+v
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÌÙü¾ýÿÿÿÿHžRMINORZ
+CODE_SMELL
+p
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(·å·[H¡RMINORZ
+CODE_SMELL
+q
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(õíÌ½H¤RMINORZ
+CODE_SMELL
+d	java:S106%"9Replace this use of System.out or System.err by a logger.(Øåá§H§RMAJORZ
+CODE_SMELL
+d	java:S106+"9Replace this use of System.out or System.err by a logger.(ò½âøH¨RMAJORZ
+CODE_SMELL

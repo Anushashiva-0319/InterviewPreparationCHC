@@ -1,0 +1,13 @@
+
+b
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8ê’¨µÙ1H$RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(œî›ıüÿÿÿÿ8ì¡Á´Ù1H­"RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(š–†åıÿÿÿÿ8ê’¨µÙ1H$RMAJORZ
+CODE_SMELL
+g
+java:S3740"/Provide the parametrized type for this generic.(Ãó³©ıÿÿÿÿ8ì¡Á´Ù1H¤"RMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ºöHŸ"RMINORZ
+CODE_SMELL

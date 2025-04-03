@@ -1,0 +1,11 @@
+
+l	java:S125<"<This block of commented-out lines of code should be removed.(†˜›ùÿÿÿÿHîRMAJORZ
+CODE_SMELL
+	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï›ÈÊşÿÿÿÿHïRMINORZ
+CODE_SMELL
+‰
+java:S1488 "]Immediately return this expression instead of assigning it to the temporary variable "train".(Ğµ½êHğRMINORZ
+CODE_SMELL
+U
+java:S1452;"&Remove usage of generic wildcard type.(ñíì¶HóRCRITICALZ
+CODE_SMELL

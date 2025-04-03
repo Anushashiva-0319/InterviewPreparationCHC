@@ -1,0 +1,47 @@
+interface Addition{
+	
+	public static final int  x=20;
+	
+	abstract void add(int x, int y);
+	
+	default int addition(int a, int b) {
+		System.out.println(a+b);
+		return a+b;
+	}
+	default String show(String name) {
+		return name;
+	}
+	
+	static String  name(String name) {
+		System.out.println("this is my name:" +name);
+		return name;
+	}
+}
+public class InterfaceDemo  implements Addition{
+
+	@Override
+	public void add(int x, int y) {
+		System.out.println(x-y);
+		
+	}
+	public String show(String name) {
+		System.out.println(name);
+		return name;
+	}
+	
+	public int addition(int a, int b) {
+		System.out.println(a/b);
+		return a/b;
+	}
+	public static void main(String[] args) {
+		InterfaceDemo id=new InterfaceDemo();
+		id.add(10,5);
+		id.addition(10, 10);
+		id.show("Anusha");
+		//Addition.name("anusha");
+		System.out.println(Addition.x);
+	}
+	
+	
+
+}
