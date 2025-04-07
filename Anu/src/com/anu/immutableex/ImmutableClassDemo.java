@@ -28,7 +28,7 @@ final public class ImmutableClassDemo {
 	}
 
 	public Address getAddress() {
-		return new Address(address.getCity(), address.getName());
+		return  new Address(address.getCity(), address.getName());
 	}
 
 	public static void main(String[] args) {

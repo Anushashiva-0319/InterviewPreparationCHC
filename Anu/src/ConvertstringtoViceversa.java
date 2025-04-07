@@ -1,4 +1,4 @@
-public class CHECKINGINFo {
+public class ConvertstringtoViceversa {
 
 	public static void main(String[] args) {
 
